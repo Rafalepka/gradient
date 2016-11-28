@@ -1,0 +1,144 @@
+/* responsive style - start */
+
+@media all and (max-width : 1200px) {
+	
+		#menu .toggle {
+		display: block;
+		color: #1ac056;
+		padding: 0 20px;
+		font-size: 20px;
+		line-height: 60px;
+		text-decoration: none;
+		border: none;
+		text-align: right;
+	}
+	
+	
+	#menu #drop:checked + ol {
+		display: block;
+	}
+	
+	ol{
+		display: none;
+	}
+	
+	.menu_item {
+		display: block;
+		text-align: right;
+		padding-right: 20px;
+	}
+	
+/*umiejętności*/
+	
+	#main_header .main_header_content h1 {
+    	font-size: 3em;
+	}
+	
+	#main_header .main_header_content h2 {
+    	font-size: 2em;
+	}
+	
+/*portfolio	*/
+	#portfolio .portfolio-items .single-portfolio-item {
+		width: 50%;}
+	
+	#portfolio #portfolio-item-3 {
+		width: 100%;
+	}
+
+	
+}
+
+@media all and (max-width : 768px) {
+
+	#main_header .main_header_content {
+    	padding: 20%;
+	}
+	
+	#main_header .main_header_content h1 {
+    	font-size: 3em;
+	}
+	
+	#main_header .main_header_content h2 {
+    	font-size: 2em;
+	}
+	
+	#about > figure { 	
+		width: 100%;
+	} 
+	
+	#about > article > p{
+		width: 100%;	
+	}
+
+	#portfolio .portfolio-items .single-portfolio-item {
+		width: 100%;
+	}
+	
+	#article_dane_kontaktowe {
+		width: 100%;
+		float: none;
+	}
+	
+	#article_formularz {
+		width: 100%;
+		float: none;
+		padding-top: 10%;
+	}
+	
+#contact {
+    text-align: center;
+}
+	
+#contact > h2 {
+    text-align: center;
+}
+	
+	div > #list_fonts > .fonts {
+    margin-right: 3%;
+}
+	
+}
+
+@media all and (max-width : 680px) {
+    
+	#main_header .main_header_content h1 {
+    	font-size: 2.5em;
+	}
+	
+	#main_header .main_header_content h2 {
+    	font-size: 1.5em;
+	}
+	
+	section {
+		padding: 0 40px 50px;
+	}
+	
+	}
+
+@media all and (max-width : 480px) {
+	
+	#main_header .main_header_content h1 {
+    	font-size: 1.5em;  	
+	}
+	
+	#main_header .main_header_content h2 {
+    	font-size: 1.2em;  	
+	}
+	
+	#about > article > p{
+		width: 100%;	
+	}
+	
+	#main_header .main_header_content {
+    	padding: 20%;
+	}
+	
+	#portfolio .portfolio-items .single-portfolio-item {
+		height: 250px;
+	}
+	
+	
+}
+
+/* responsive style - stop */

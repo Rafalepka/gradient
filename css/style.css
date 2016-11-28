@@ -1,0 +1,21 @@
+nav ol li {
+	text-decoration: none;
+	font-size: 30px;
+	display: inline-block;
+	padding: 50px;
+	text-align: center;
+}
+
+nav ol li a{
+	text-decoration: none;
+	font-size: 30px;
+}
+
+
+nav ol {
+	list-style: none;
+	text-align: center;
+	border-top: solid;
+	border-top-color: aqua;
+	
+}
