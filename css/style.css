@@ -11,11 +11,23 @@ nav ol li a{
 	font-size: 30px;
 }
 
+.gradient {
+	 margin: auto;
+    width: 100%;
+    height: 100%;
+	border-top: solid;
+    border-image: -moz-linear-gradient(left,red,orange,yellow,green,blue,indigo,violet);
+    border-image-slice: 1;
+	border-width: 30px;
+}
+
 
 nav ol {
 	list-style: none;
 	text-align: center;
+/*
 	border-top: solid;
-	border-top-color: aqua;
-	
+	border-image: (left,red,orange,yellow,green,blue,indigo,violet);
+	border-width: 50px;
+*/
 }
