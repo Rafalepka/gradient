@@ -1,33 +1,41 @@
-nav ol li {
-	text-decoration: none;
-	font-size: 30px;
-	display: inline-block;
-	padding: 50px;
-	text-align: center;
+
+#background{
+	background-color: greenyellow;
 }
 
-nav ol li a{
+a{
 	text-decoration: none;
 	font-size: 30px;
 }
 
 .gradient {
-	 margin: auto;
+	position: relative;
+	margin: 0;
+	padding: 0;
     width: 100%;
-    height: 100%;
+	height: 0;
 	border-top: solid;
     border-image: -moz-linear-gradient(left,red,orange,yellow,green,blue,indigo,violet);
     border-image-slice: 1;
-	border-width: 30px;
-}
-
-
-nav ol {
-	list-style: none;
-	text-align: center;
-/*
-	border-top: solid;
-	border-image: (left,red,orange,yellow,green,blue,indigo,violet);
 	border-width: 50px;
-*/
 }
+
+
+.figura_grupujaca{
+	width: 100%;
+	height: 100px;	
+}
+
+
+.pole_z_zawartocia_menu{
+	position: absolute;
+	padding: 0;
+	margin: 0;
+    width: 100%;
+    height: 100px;
+	background-color: red;
+}
+
+
+
+
