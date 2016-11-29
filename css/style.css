@@ -6,11 +6,9 @@
 
 .glowne_menu_ustawienie_srodka {
 	text-decoration: none;
-	font-size: 30px;
-	
+	font-size: 20px;	
 }
 		
-	
 }
 .menu_usawienia_opakowania {
 	display: inline-block;
@@ -29,69 +27,70 @@
 	border-width: 70px;
 }
 
-.glowne_menu_pole_dolne1{
+.glowne_menu_pole_dolne{
 	position: absolute;
 	top: -30px;
 	padding: 0;
-	margin: 0;
-    width: 25%;
+	width: 20%;
     height: 100px;
 	background-color: #fff;
 	display: inline-block;
+	text-align: center;
 }
 
-.glowne_menu_pole_dolne1:hover{
-	top: -10px;
-	height: 80px;
-}
-
-.glowne_menu_pole_dolne2{
+.div_pusty_wysokosc{
 	position: absolute;
 	top: -30px;
-	left: 25%;
-	margin: 0;
-    width: 25%;
+	padding: 0;
     height: 100px;
-	background-color: #fff;
+	width: 4%;
 	display: inline-block;
+	text-align: center;
+	background-color: #fff;
 }
 
-.glowne_menu_pole_dolne2:hover{
+#div_pusty_lewy{
+	left: 0;
+}
+
+#menu_pozycja_1{
+	left: 4%;
+}
+
+#div_pusty_srodkowy_1{
+	left: 24%;
+	
+}
+
+#menu_pozycja_2{
+	left: 28%;
+}
+
+#div_pusty_srodkowy_2{
+	left: 48%;
+}
+
+#menu_pozycja_3{
+	left: 52%;
+}
+
+#div_pusty_srodkowy_3{
+	left: 72%;
+}
+
+#menu_pozycja_4{
+	left: 76%;
+}
+
+#div_pusty_prawy{
+	left: 96%;
+}
+
+.glowne_menu_pole_dolne:hover{
 	top: -10px;
 	height: 80px;
 }
 
-.glowne_menu_pole_dolne3{
-	position: absolute;
-	top: -30px;
-	left: 50%;
-	margin: 0;
-    width: 25%;
-    height: 100px;
-	background-color: #fff;
-	display: inline-block;
-}
-
-.glowne_menu_pole_dolne3:hover{
-	top: -10px;
-	height: 80px;
-}
-
-.glowne_menu_pole_dolne4{
-	position: absolute;
-	top: -30px;
-	left: 75%;
-	margin: 0;
-    width: 25%;
-    height: 100px;
-	background-color: #fff;
-	display: inline-block;
-}
-
-.glowne_menu_pole_dolne4:hover{
-	top: -10px;
-	height: 80px;
-}
 
 #div_zielony{
 	position: relative;
