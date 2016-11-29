@@ -1,6 +1,7 @@
 
 #background{
 	background-color: greenyellow;
+	margin: 0;
 }
 
 a{
@@ -17,25 +18,21 @@ a{
 	border-top: solid;
     border-image: -moz-linear-gradient(left,red,orange,yellow,green,blue,indigo,violet);
     border-image-slice: 1;
-	border-width: 50px;
+	border-width: 70px;
 }
 
-
-.figura_grupujaca{
-	width: 100%;
-	height: 100px;	
-}
-
-
-.pole_z_zawartocia_menu{
+.glowne_menu{
 	position: absolute;
+	top: -30px;
 	padding: 0;
 	margin: 0;
-    width: 100%;
+    width: 50%;
     height: 100px;
-	background-color: red;
+	background-color: #fff;
 }
 
-
-
+.glowne_menu:hover{
+	top: -10px;
+	height: 80px;
+}
 
