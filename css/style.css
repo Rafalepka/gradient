@@ -1,12 +1,20 @@
 
 #background{
-	background-color: greenyellow;
+	background-color: aqua;
 	margin: 0;
 }
 
-a{
+.glowne_menu_ustawienie_srodka {
 	text-decoration: none;
 	font-size: 30px;
+	
+}
+		
+	
+}
+.menu_usawienia_opakowania {
+	display: inline-block;
+	background-color: aqua;
 }
 
 .gradient {
@@ -21,18 +29,74 @@ a{
 	border-width: 70px;
 }
 
-.glowne_menu{
+.glowne_menu_pole_dolne1{
 	position: absolute;
 	top: -30px;
 	padding: 0;
 	margin: 0;
-    width: 50%;
+    width: 25%;
     height: 100px;
 	background-color: #fff;
+	display: inline-block;
 }
 
-.glowne_menu:hover{
+.glowne_menu_pole_dolne1:hover{
 	top: -10px;
 	height: 80px;
 }
 
+.glowne_menu_pole_dolne2{
+	position: absolute;
+	top: -30px;
+	left: 25%;
+	margin: 0;
+    width: 25%;
+    height: 100px;
+	background-color: #fff;
+	display: inline-block;
+}
+
+.glowne_menu_pole_dolne2:hover{
+	top: -10px;
+	height: 80px;
+}
+
+.glowne_menu_pole_dolne3{
+	position: absolute;
+	top: -30px;
+	left: 50%;
+	margin: 0;
+    width: 25%;
+    height: 100px;
+	background-color: #fff;
+	display: inline-block;
+}
+
+.glowne_menu_pole_dolne3:hover{
+	top: -10px;
+	height: 80px;
+}
+
+.glowne_menu_pole_dolne4{
+	position: absolute;
+	top: -30px;
+	left: 75%;
+	margin: 0;
+    width: 25%;
+    height: 100px;
+	background-color: #fff;
+	display: inline-block;
+}
+
+.glowne_menu_pole_dolne4:hover{
+	top: -10px;
+	height: 80px;
+}
+
+#div_zielony{
+	position: relative;
+	top: 100px;
+	width: 100%;
+	height: 50px;
+	background-color: greenyellow;
+}
