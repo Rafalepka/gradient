@@ -3,11 +3,6 @@
 	background-color: aqua;
 	margin: 0;
 }
-
-.glowne_menu_ustawienie_srodka {
-	text-decoration: none;
-	font-size: 20px;	
-}
 		
 }
 .menu_usawienia_opakowania {
@@ -47,6 +42,11 @@
 	display: inline-block;
 	text-align: center;
 	background-color: #fff;
+}
+
+.glowne_menu_ustawienie_srodka {
+	text-decoration: none;
+	font-size: 20px;	
 }
 
 #div_pusty_lewy{
