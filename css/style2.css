@@ -1,11 +1,29 @@
 
 #background{
-	background-color: aqua;
+/*	background-color: aqua;*/
 	margin: 0;
 }
 	
 nav {
 	font-size: 0;
+}
+
+.biala_ramka_gora {
+	position: absolute;
+	top: 0;
+	left: 0;
+	height: 40px;
+	width: 100%;
+	background-color: #fff;
+}
+
+.biala_ramka_dol {
+	position: absolute;
+	top: 60px;
+	left: 0;
+	height: 10px;
+	width: 100%;
+	background-color: #fff;
 }
 
 .menu_usawienia_opakowania {
@@ -38,18 +56,7 @@ nav {
 	padding: 0;
     height: 80px;
 	width: 20%;
-	background-color: greenyellow;
-	display: inline-block;
-	text-align: center;
-}
-
-.glowne_menu_pole_dolne_2 {
-	position: absolute;
-	top: 110px;
-	padding: 0;
-    height: 80px;
-	width: 20%;
-	background-color: green;
+	background-color: #fff;
 	display: inline-block;
 	text-align: center;
 }
@@ -75,6 +82,29 @@ nav {
 }
 
 .glowne_menu_ustawienie_srodka {
+	position: absolute;
+	top: 70px;
+	padding: 0;
+    height: 40px;
+	width: 20%;
+	background-color: #fff;
+	display: inline-block;
+	text-align: center;
+	padding-top: 40px;
+	text-decoration: none;
+	font-size: 20px;
+}
+
+.glowne_menu_ustawienie_srodka:hover {
+	position: absolute;
+	top: 90px;
+	padding: 0;
+    height: 40px;
+	width: 20%;
+	background-color: #fff;
+	display: inline-block;
+	text-align: center;
+	padding-top: 20px;
 	text-decoration: none;
 	font-size: 20px;
 }
@@ -134,9 +164,9 @@ nav {
 }
 
 #div_zielony {
-	position: relative;
-	top: 70px;
+	position: absolute;
+	top: 500px;
 	width: 100%;
-	height: 50px;
-	background-color: greenyellow;
+	height: 100px;
+	background-color: red;
 }
